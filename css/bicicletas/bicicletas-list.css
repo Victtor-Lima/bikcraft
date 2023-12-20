@@ -13,6 +13,10 @@
   margin-right: auto;
 }
 
+#bicicleta .bicicletas-list h2 {
+  padding-left: 0px;
+}
+
 .bicicletas-list ul {
   display: flex;
   gap: 40px;
@@ -21,6 +25,10 @@
   margin-left: auto;
   margin-right: auto;
   overflow-x: auto;
+}
+
+#bicicleta .bicicletas-list ul {
+  padding: 0px 0px 20px 0px;
 }
 
 .bicicletas-list li {
