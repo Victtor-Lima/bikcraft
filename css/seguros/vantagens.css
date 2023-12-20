@@ -1,0 +1,36 @@
+.vatagens-bg {
+  background-color: var(--cor-12);
+}
+
+.vatagens {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.vatagens h2 {
+  margin-bottom: 60px;
+}
+
+.vatagens ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.vatagens h3,
+.vatagens img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .vatagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .vatagens h2 {
+    margin-bottom: 40px;
+  }
+  .vatagens ul {
+    gap: 20px;
+  }
+}
