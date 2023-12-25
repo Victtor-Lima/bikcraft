@@ -109,6 +109,7 @@
 .orcamento-dados {
   border-radius: 0 5px 5px 0;
   background: var(--cor-0);
+  background: url("../../img/dec/decoradores-cinza/bottom-rigth.svg") no-repeat bottom 20px right 20px;
 }
 
 .orcamento-conteudo {
